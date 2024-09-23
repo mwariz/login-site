@@ -1,0 +1,81 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body
+{
+    font-family: "Montserrat";
+    color: #2EF2AA;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B2621 ;
+    background-image: url(folhas.png);
+    background-size: cover;
+    background-position: 50%;
+}
+form {
+    background-color: #164038;
+    padding: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+h1 
+{
+    font-size: 24px;
+}
+.barra-horizontal {
+    background-color: #188C56;
+    height: 5px;
+    width: 210px;
+}
+.campo-input 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.lembrar-me
+{
+    display: flex;
+    gap: 5px;
+}
+.titulo 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+button 
+{
+    padding: 10px;
+    align-self: center;
+    width: 160px;
+    border-radius: 30px;
+    background-image: linear-gradient(#188C56, #188C56);
+    border: solid 1px #0B2621;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    font-size: 16px;
+    color: #0B2621;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+input 
+{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #188C56;
+}
+a 
+{
+    color: #188C56;
+    font-weight: 500;
+}
